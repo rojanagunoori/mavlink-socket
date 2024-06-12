@@ -1,0 +1,23 @@
+{
+  "name": "assignment4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "compilerOptions": {
+    "module": "CommonJS"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ifrunistuttgart/node-mavlink": "github:ifrunistuttgart/node-mavlink",
+    "express": "^4.19.2",
+    "mavlink": "^1.0.1",
+    "node-mavlink": "^2.0.7",
+    "serialport": "^12.0.0"
+  }
+}
